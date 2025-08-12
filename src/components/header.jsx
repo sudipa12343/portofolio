@@ -82,7 +82,9 @@ export default function Header() {
                 onClick={() => scrollToSection(item.id)}
                 className="block w-full text-left py-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
-                {item.name}
+                <a href={item.id}>
+                  {item.name}
+                </a>
               </button>
             ))}
           </div>
