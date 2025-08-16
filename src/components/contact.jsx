@@ -15,7 +15,7 @@ export default function Contact() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://www.linkedin.com/in/i-putu-sudipa-yasa-60642b335/",
+      url: "https://www.linkedin.com/in/iputusudipayasa/",
       description: "Connect with me professionally",
     },
     {
